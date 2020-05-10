@@ -34,6 +34,6 @@ npm run dev //執行程式, 成功執行下會出現 'Express is listening on lo
 ## Test username & password
 1. firstName : Tony / email : 'tony@stark.com' / password : 'iamironman'
 2. firstName : Steve / email : 'captain@hotmail.com' / password : 'icandothisallday'
-3. firstName:Peter / email : 'peter@parker.com' / password : 'enajyram'
-4. firstName:Natasha / email : 'natasha@gamil.com' / password : '*parol#@$!'
-5. firstName:Nick / email : 'nick@shield.com' / password : 'password'
+3. firstName : Peter / email : 'peter@parker.com' / password : 'enajyram'
+4. firstName : Natasha / email : 'natasha@gamil.com' / password : '*parol#@$!'
+5. firstName : Nick / email : 'nick@shield.com' / password : 'password'
