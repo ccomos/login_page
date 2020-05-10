@@ -25,15 +25,10 @@ app.post('/', (req, res) => {
   const userInput = (req.body)
 
   if (userInfo.firstName !== undefined) {
-    res.redirect('welcome')
+    res.render('welcome', { userInfo: userInfo })
   } else {
     res.render('index', { userInput: userInput, fault: fault })
   }
-
-  app.get('/welcome', (req, res) => {
-    res.render('welcome', { userInfo: userInfo })
-  })
-
 })
 
 //starts the express server and listening for connections.
